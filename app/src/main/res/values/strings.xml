@@ -25,4 +25,8 @@
     <string name="mensaje_error_no_paginas">Ingrese el numero de paginas</string>
     <string name="mensaje_error_editorial">Ingrese la editorial</string>
     <string name="mensaje_error_foto">Seleccione una foto de portada</string>
+    <string name="detalle_libros">DETALLE LIBROS</string>
+    <string name="mensaje_eliminar">¿ Seugor que desea eliminar este libro ?</string>
+    <string name="mensaje_positivo">Si</string>
+    <string name="mensaje_negativo">No</string>
 </resources>

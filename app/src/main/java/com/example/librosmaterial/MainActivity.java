@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements AdaptadorLibro.On
                     }
                 }
                 adapter.notifyDataSetChanged();
-                Datos.setPersonas(libros);
+                Datos.setLibros(libros);
             }
 
             @Override
