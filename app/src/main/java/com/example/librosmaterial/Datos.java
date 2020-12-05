@@ -21,7 +21,7 @@ public class Datos {
         return  databaseReference.push().getKey();
     }
 
-    public static void setPersonas(ArrayList<Libro> libros) {
+    public static void setLibros(ArrayList<Libro> libros) {
         Datos.libros = libros;
     }
 

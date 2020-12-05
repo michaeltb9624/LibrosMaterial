@@ -8,6 +8,27 @@ public class Libro {
     private String noPaginas;
     private String editorial;
 
+    public Libro(String id, String ISBN, String titulo, String autor, String noPaginas, String editorial) {
+        this.id = id;
+        this.ISBN = ISBN;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.noPaginas = noPaginas;
+        this.editorial = editorial;
+    }
+
+    public Libro() {
+
+    }
+
+    public  void guardar(){
+        Datos.guardar(this);
+    }
+
+    public  void eliminar(){
+        Datos.eliminar(this);
+    }
+
     public String getId() {
         return id;
     }

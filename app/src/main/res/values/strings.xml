@@ -17,4 +17,12 @@
     <string name="editorial">Editorial</string>
     <string name="guardar">Guardar</string>
     <string name="limpiar">Limpiar</string>
+    <string name="mensaje_libro_guardado">Libro Guardado Exitosamente</string>
+    <string name="seleccione_foto">Seleccione la foto del libro</string>
+    <string name="mensaje_error_ISBN">Ingrese el ISBN</string>
+    <string name="mensaje_error_titulo">Ingrese el titulo</string>
+    <string name="mensaje_error_autor">Ingrese el nombre del autor</string>
+    <string name="mensaje_error_no_paginas">Ingrese el numero de paginas</string>
+    <string name="mensaje_error_editorial">Ingrese la editorial</string>
+    <string name="mensaje_error_foto">Seleccione una foto de portada</string>
 </resources>

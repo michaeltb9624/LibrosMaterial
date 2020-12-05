@@ -21,6 +21,7 @@
         android:layout_width="222dp"
         android:layout_height="166dp"
         android:layout_gravity="center_horizontal"
+        android:onClick="seleccionarFoto"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <EditText
@@ -28,40 +29,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/isbn" />
+        android:hint="@string/isbn"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/titulo" />
+        android:hint="@string/titulo"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextAutor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/autor" />
+        android:hint="@string/autor"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextNoPaginas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-        android:text="@string/no_paginas" />
+        android:hint="@string/no_paginas"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/editTextEditorial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/editorial" />
+        android:hint="@string/editorial"
+        android:inputType="textPersonName" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,6 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar"
             android:text="@string/guardar" />
 
         <Button
@@ -80,6 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/limpiar" />
     </LinearLayout>
 </LinearLayout>
