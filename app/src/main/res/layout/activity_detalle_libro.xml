@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -28,10 +28,7 @@
         fab:menu_shadowXOffset="1dp"
         fab:menu_shadowYOffset="3dp"
 
-        fab:menu_showShadow="true"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="575dp">
+        fab:menu_showShadow="true">
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu_eliminar"
@@ -40,7 +37,7 @@
             android:onClick="eliminar"
 
             android:src="@android:drawable/ic_menu_delete"
-            fab:fab_label="Menu item 1"
+            app:fab_label="@string/eliminar"
             fab:fab_size="mini" />
 
     </com.github.clans.fab.FloatingActionMenu>
@@ -48,9 +45,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="575dp">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/lblTituloPantallaDetalle"
@@ -70,13 +65,13 @@
         <TableLayout
             android:id="@+id/tblTablaDetalle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:stretchColumns="*">
 
             <TableRow
                 android:id="@+id/FilaISBN"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/lblTituloISBN"
@@ -99,7 +94,7 @@
             <TableRow
                 android:id="@+id/FilaTitulo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/lblTituloTitulo"
@@ -122,7 +117,7 @@
             <TableRow
                 android:id="@+id/FilaAutor"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/lblTituloAutor"
@@ -168,7 +163,7 @@
             <TableRow
                 android:id="@+id/FilaEditorial"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/lblTituloEditorial"
@@ -190,4 +185,4 @@
         </TableLayout>
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

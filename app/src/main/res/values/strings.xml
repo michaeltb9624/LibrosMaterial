@@ -29,4 +29,6 @@
     <string name="mensaje_eliminar">¿ Seugor que desea eliminar este libro ?</string>
     <string name="mensaje_positivo">Si</string>
     <string name="mensaje_negativo">No</string>
+    <string name="mensaje_error_ya_existe">Ya existe un libro con este ISBN</string>
+    <string name="eliminar">Eliminar</string>
 </resources>
