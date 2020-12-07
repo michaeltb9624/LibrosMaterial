@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391860690922",
+    "project_id": "librosmaterial-e7d35",
+    "storage_bucket": "librosmaterial-e7d35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391860690922:android:75b7d973baba30b9eadc93",
+        "android_client_info": {
+          "package_name": "com.example.librosmaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391860690922-ih73b45rhfllikfhigqvuknevotlg3r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMJneg3ZbxGXGtz-IcZu4-aJxg0PfcnUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391860690922-ih73b45rhfllikfhigqvuknevotlg3r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
