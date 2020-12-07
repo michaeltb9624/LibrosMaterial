@@ -163,7 +163,6 @@ public class CrearLibros extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
                     Snackbar.make((View)ISBN, R.string.mensaje_error_ya_existe, Snackbar.LENGTH_LONG).show();
-                   Log.i("entre" , "entreee");
                 }else{
                     guardarLibro(v);
                 }
