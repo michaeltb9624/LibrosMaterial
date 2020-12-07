@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Books Material</string>
+    <string name="crear_libros">CREATE BOOKS</string>
+    <string name="isbn">ISBN</string>
+    <string name="titulo">Title</string>
+    <string name="autor">Author</string>
+    <string name="no_paginas">No. Pages</string>
+    <string name="editorial">Editorial</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="mensaje_libro_guardado">Book successfully saved</string>
+    <string name="mensaje_error_ISBN">Enter ISBN</string>
+    <string name="mensaje_error_titulo">Enter Title</string>
+    <string name="mensaje_error_autor">Enter Author Name</string>
+    <string name="mensaje_error_no_paginas">Enter number of pages</string>
+    <string name="mensaje_error_editorial">Enter Editorial</string>
+    <string name="seleccione_foto">Select the photo of the book</string>
+    <string name="mensaje_error_foto">Select the photo of the book</string>
+    <string name="detalle_libros">DETAIL BOOKS</string>
+    <string name="mensaje_positivo">Yes</string>
+    <string name="mensaje_negativo">No</string>
+    <string name="mensaje_eliminar">Are you sure you want to delete this book?</string>
+    <string name="mensaje_error_ya_existe">"There is already a book with this ISBN "</string>
+    <string name="eliminar">Delete</string>
+</resources>

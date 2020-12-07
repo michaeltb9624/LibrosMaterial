@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">LibrosMaterial</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings" translatable="false">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
     <string name="crear_libros">CREAR LIBROS</string>
     <string name="isbn">ISBN</string>
     <string name="titulo">Titulo</string>
@@ -24,9 +24,9 @@
     <string name="mensaje_error_autor">Ingrese el nombre del autor</string>
     <string name="mensaje_error_no_paginas">Ingrese el numero de paginas</string>
     <string name="mensaje_error_editorial">Ingrese la editorial</string>
-    <string name="mensaje_error_foto">Seleccione una foto de portada</string>
+    <string name="mensaje_error_foto">Seleccione una foto del libro</string>
     <string name="detalle_libros">DETALLE LIBROS</string>
-    <string name="mensaje_eliminar">¿ Seugor que desea eliminar este libro ?</string>
+    <string name="mensaje_eliminar">¿ Seguro que desea eliminar este libro ?</string>
     <string name="mensaje_positivo">Si</string>
     <string name="mensaje_negativo">No</string>
     <string name="mensaje_error_ya_existe">Ya existe un libro con este ISBN</string>

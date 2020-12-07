@@ -120,36 +120,38 @@ public class CrearLibros extends AppCompatActivity {
     }
 
     public void validar(View v){
+        boolean crear=true;
         if(ISBN.getText().toString().isEmpty()){
             ISBN.setError(getString(R.string.mensaje_error_ISBN));
             ISBN.requestFocus();
-        }
 
-        if(titulo.getText().toString().isEmpty()){
+        }
+        else if(titulo.getText().toString().isEmpty()){
             titulo.setError(getString(R.string.mensaje_error_titulo));
             titulo.requestFocus();
         }
-
-        if(autor.getText().toString().isEmpty()){
+        else if(autor.getText().toString().isEmpty()){
             autor.setError(getString(R.string.mensaje_error_autor));
             autor.requestFocus();
 
         }
 
-        if(noPaginas.getText().toString().isEmpty()){
+        else if(noPaginas.getText().toString().isEmpty()){
             noPaginas.setError(getString(R.string.mensaje_error_no_paginas));
             noPaginas.requestFocus();
         }
 
-        if(editorial.getText().toString().isEmpty()){
+        else if(editorial.getText().toString().isEmpty()){
             editorial.setError(getString(R.string.mensaje_error_editorial));
             editorial.requestFocus();
         }
 
-        if (uri == null){
+        else if (uri == null){
             Snackbar.make((View)ISBN, R.string.mensaje_error_foto, Snackbar.LENGTH_LONG).show();
         }
-        crearLibroDatabase(ISBN , v);
+        else {
+            crearLibroDatabase(ISBN, v);
+        }
     }
 
     private void crearLibroDatabase(EditText ISBN, View v) {
